@@ -1,0 +1,6 @@
+@for $marg from 15 to 60{
+  .margin-top-#{$marg}{
+    margin-top: $marg;
+  }
+  $marg: $marg + 15;
+}
